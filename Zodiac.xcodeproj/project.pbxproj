@@ -44,6 +44,7 @@
 		416400C058C835A5CED28E8D /* Pods-Zodiac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zodiac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zodiac/Pods-Zodiac.debug.xcconfig"; sourceTree = "<group>"; };
 		49E638D6D74C7B01864FFA63 /* Pods_ZodiacUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZodiacUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1575CC27CAFA1C4F2ADD5F /* Pods-ZodiacUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZodiacUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZodiacUITests/Pods-ZodiacUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F985A31F4EC817009450F1 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		B3D150F7D8EE966FFA0218EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D1512FAA06D445905B5499 /* ZodiacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZodiacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D1526543E55B7332E22E0B /* ZodiacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZodiacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +131,7 @@
 				B3D15FA48545714BEBD7B9D9 /* AppDelegate.swift */,
 				B3D1593266F37C053B588EA8 /* Main.storyboard */,
 				B3D158E0444755D2F20E1BB6 /* ViewController.swift */,
+				A2F985A31F4EC817009450F1 /* MyPlayground.playground */,
 			);
 			path = Zodiac;
 			sourceTree = "<group>";
@@ -677,6 +679,7 @@
 				B3D1518A761BD5A139353453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D15C90DF88AED978B28735 /* Build configuration list for PBXProject "Zodiac" */ = {
 			isa = XCConfigurationList;
@@ -694,6 +697,7 @@
 				B3D152B1E803C68805316FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D15FCDC2BBE9E7BDAE7D67 /* Build configuration list for PBXNativeTarget "ZodiacUITests" */ = {
 			isa = XCConfigurationList;
@@ -702,6 +706,7 @@
 				B3D157453D9CA474E046A7F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
