@@ -16,13 +16,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var image: UIImageView!
 
-    let offset = 4
+    let offset = 20
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -35,9 +34,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func okTapped(_ sender: Any) {
-        yearOfBirth.resignFirstResponder()
         if let year = Int(yearOfBirth.text!){
-            var imageIndex = (year - offset) % 12
+            var imageIndex = (year + offset) % 12
             image.image = UIImage(named: String(imageIndex))
         }
     }
