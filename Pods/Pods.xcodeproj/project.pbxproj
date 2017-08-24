@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D65F44841AAF21CC682691B0FEE70AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4DAF3749C5C2219619C5600E4F5D4854 /* Pods-ZodiacTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3079FAA20E4F6AC306462632410C8D86 /* Pods-ZodiacTests-dummy.m */; };
+		5AC637D2D0DF2648E41446F1C4C39998 /* Pods-ZodiacUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F64742BCBFAC4128C78C57B649C7A /* Pods-ZodiacUITests-dummy.m */; };
+		5C9FB980E51502E050B4D9AF7BFA4F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		642144A68AC5695167373B0754FA0F46 /* Pods-ZodiacTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 452EA12DD67FF7E2C6F955469558616E /* Pods-ZodiacTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76E16F0004714A313A65E4707EBDF135 /* Pods-Zodiac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A02FC559AC187DFA66CBE11797670A /* Pods-Zodiac-dummy.m */; };
+		7F1DC017BF7AFD2FE86D95493AC9599D /* Pods-ZodiacUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 217C79FF98FEBA5F38A9B94E831D6817 /* Pods-ZodiacUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2752C94B5285FBA3065E57F0443A9C2 /* Pods-Zodiac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36418FBCA0429CDE3403B917F0E90EEF /* Pods-Zodiac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF1F006284DB58E29A8D42979CB5BCBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14BA835DF6AE44B7B1F7869A218EE411 /* Pods_Zodiac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zodiac.framework; path = "Pods-Zodiac.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5C8541518C7E4795BA38CCFF3CDE57 /* Pods-Zodiac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zodiac.debug.xcconfig"; sourceTree = "<group>"; };
+		217C79FF98FEBA5F38A9B94E831D6817 /* Pods-ZodiacUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZodiacUITests-umbrella.h"; sourceTree = "<group>"; };
+		3079FAA20E4F6AC306462632410C8D86 /* Pods-ZodiacTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZodiacTests-dummy.m"; sourceTree = "<group>"; };
+		340F2BEEAA9917A381CDD3E419DE1555 /* Pods-ZodiacTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZodiacTests-frameworks.sh"; sourceTree = "<group>"; };
+		36418FBCA0429CDE3403B917F0E90EEF /* Pods-Zodiac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zodiac-umbrella.h"; sourceTree = "<group>"; };
+		3A463F478114EEFF16ADC13ABC4B5C91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AABDF3A2FC43C19F7C8978EEF6F4AD1 /* Pods_ZodiacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZodiacTests.framework; path = "Pods-ZodiacTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		428001517D03DECB65B97820CDD6000F /* Pods-ZodiacUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZodiacUITests-resources.sh"; sourceTree = "<group>"; };
+		452EA12DD67FF7E2C6F955469558616E /* Pods-ZodiacTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZodiacTests-umbrella.h"; sourceTree = "<group>"; };
+		45CCDDD9B934DD3EFF164D4BFC092451 /* Pods-ZodiacUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZodiacUITests-frameworks.sh"; sourceTree = "<group>"; };
+		47CF9024189717D0F03189210B79C17E /* Pods-Zodiac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zodiac-frameworks.sh"; sourceTree = "<group>"; };
+		4EEB7CF57EA3841F42DDD851726BB288 /* Pods-ZodiacUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZodiacUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4FEDA5B12937671C4954199CAA13EDBC /* Pods-ZodiacUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZodiacUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		526C60251C0B2CFEC786DC047D4DF638 /* Pods-Zodiac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zodiac-resources.sh"; sourceTree = "<group>"; };
+		575F5D627E2ADDCEBC65202BE5D6C993 /* Pods-Zodiac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zodiac-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57BC5C851D8B14C903BFBF42A26EA320 /* Pods-ZodiacTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZodiacTests.modulemap"; sourceTree = "<group>"; };
+		601995B6BF27CE95DFD75DF424181AFC /* Pods-ZodiacTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZodiacTests.release.xcconfig"; sourceTree = "<group>"; };
+		65F37E7572335A53C083F9F19909813A /* Pods-ZodiacTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZodiacTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		682C6C2DB5321FA9E2486FC29CC94289 /* Pods-ZodiacUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZodiacUITests.modulemap"; sourceTree = "<group>"; };
+		788B48246AB8855C19B4FD00C18B72F3 /* Pods-ZodiacUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZodiacUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F1F64742BCBFAC4128C78C57B649C7A /* Pods-ZodiacUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZodiacUITests-dummy.m"; sourceTree = "<group>"; };
+		859E41EA7561A5F81917D2B0B5BC9BC3 /* Pods_ZodiacUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZodiacUITests.framework; path = "Pods-ZodiacUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6C70606D1F9E61E2B2A1199142AB0C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A02FC559AC187DFA66CBE11797670A /* Pods-Zodiac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zodiac-dummy.m"; sourceTree = "<group>"; };
+		C790591F311788A2758D75E2A51D4C77 /* Pods-ZodiacUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZodiacUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C95B01EB6682D918721F83EADBA70E3B /* Pods-Zodiac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zodiac-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB0C39F1D6C43EB25960DF13DE88D0CC /* Pods-Zodiac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Zodiac.modulemap"; sourceTree = "<group>"; };
+		CCC16EB0A1D064DF3F65AF8EEB1AF054 /* Pods-ZodiacTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZodiacTests-resources.sh"; sourceTree = "<group>"; };
+		E7C2B02C64C35F39B9245EBF2DC7F5FB /* Pods-ZodiacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZodiacTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBBD0D658C91FE8B54402A28CDF9D1A9 /* Pods-ZodiacTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZodiacTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD0CEECF974A8C905C5AEDE855386CDB /* Pods-Zodiac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zodiac.release.xcconfig"; sourceTree = "<group>"; };
+		FDF79137F984A4206BC31FAB256AC141 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23FD779778216B0FEAFFC41444D0974A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D65F44841AAF21CC682691B0FEE70AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC46B52A916EB26AD35E1089A0FE123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9FB980E51502E050B4D9AF7BFA4F89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDC4D6E6B6B59FE62A071EC841BF241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1F006284DB58E29A8D42979CB5BCBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C13733D8D522787C3EBD804B84AD4F0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1E6F93ED086BF0182BBF09540BCCA /* Pods-Zodiac */,
+				E9099EED1738C3E4D78FB6C166228985 /* Pods-ZodiacTests */,
+				427B6EBC7B8A97EE51AC19E77BDBEDAA /* Pods-ZodiacUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		427B6EBC7B8A97EE51AC19E77BDBEDAA /* Pods-ZodiacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6C70606D1F9E61E2B2A1199142AB0C2 /* Info.plist */,
+				682C6C2DB5321FA9E2486FC29CC94289 /* Pods-ZodiacUITests.modulemap */,
+				4FEDA5B12937671C4954199CAA13EDBC /* Pods-ZodiacUITests-acknowledgements.markdown */,
+				788B48246AB8855C19B4FD00C18B72F3 /* Pods-ZodiacUITests-acknowledgements.plist */,
+				7F1F64742BCBFAC4128C78C57B649C7A /* Pods-ZodiacUITests-dummy.m */,
+				45CCDDD9B934DD3EFF164D4BFC092451 /* Pods-ZodiacUITests-frameworks.sh */,
+				428001517D03DECB65B97820CDD6000F /* Pods-ZodiacUITests-resources.sh */,
+				217C79FF98FEBA5F38A9B94E831D6817 /* Pods-ZodiacUITests-umbrella.h */,
+				C790591F311788A2758D75E2A51D4C77 /* Pods-ZodiacUITests.debug.xcconfig */,
+				4EEB7CF57EA3841F42DDD851726BB288 /* Pods-ZodiacUITests.release.xcconfig */,
+			);
+			name = "Pods-ZodiacUITests";
+			path = "Target Support Files/Pods-ZodiacUITests";
+			sourceTree = "<group>";
+		};
+		7D1BCFED3FB1D7E475CA73FD4DFB5028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14BA835DF6AE44B7B1F7869A218EE411 /* Pods_Zodiac.framework */,
+				3AABDF3A2FC43C19F7C8978EEF6F4AD1 /* Pods_ZodiacTests.framework */,
+				859E41EA7561A5F81917D2B0B5BC9BC3 /* Pods_ZodiacUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7D1BCFED3FB1D7E475CA73FD4DFB5028 /* Products */,
+				2C13733D8D522787C3EBD804B84AD4F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FE1E6F93ED086BF0182BBF09540BCCA /* Pods-Zodiac */ = {
+			isa = PBXGroup;
+			children = (
+				FDF79137F984A4206BC31FAB256AC141 /* Info.plist */,
+				CB0C39F1D6C43EB25960DF13DE88D0CC /* Pods-Zodiac.modulemap */,
+				575F5D627E2ADDCEBC65202BE5D6C993 /* Pods-Zodiac-acknowledgements.markdown */,
+				C95B01EB6682D918721F83EADBA70E3B /* Pods-Zodiac-acknowledgements.plist */,
+				A7A02FC559AC187DFA66CBE11797670A /* Pods-Zodiac-dummy.m */,
+				47CF9024189717D0F03189210B79C17E /* Pods-Zodiac-frameworks.sh */,
+				526C60251C0B2CFEC786DC047D4DF638 /* Pods-Zodiac-resources.sh */,
+				36418FBCA0429CDE3403B917F0E90EEF /* Pods-Zodiac-umbrella.h */,
+				1D5C8541518C7E4795BA38CCFF3CDE57 /* Pods-Zodiac.debug.xcconfig */,
+				FD0CEECF974A8C905C5AEDE855386CDB /* Pods-Zodiac.release.xcconfig */,
+			);
+			name = "Pods-Zodiac";
+			path = "Target Support Files/Pods-Zodiac";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9099EED1738C3E4D78FB6C166228985 /* Pods-ZodiacTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A463F478114EEFF16ADC13ABC4B5C91 /* Info.plist */,
+				57BC5C851D8B14C903BFBF42A26EA320 /* Pods-ZodiacTests.modulemap */,
+				FBBD0D658C91FE8B54402A28CDF9D1A9 /* Pods-ZodiacTests-acknowledgements.markdown */,
+				65F37E7572335A53C083F9F19909813A /* Pods-ZodiacTests-acknowledgements.plist */,
+				3079FAA20E4F6AC306462632410C8D86 /* Pods-ZodiacTests-dummy.m */,
+				340F2BEEAA9917A381CDD3E419DE1555 /* Pods-ZodiacTests-frameworks.sh */,
+				CCC16EB0A1D064DF3F65AF8EEB1AF054 /* Pods-ZodiacTests-resources.sh */,
+				452EA12DD67FF7E2C6F955469558616E /* Pods-ZodiacTests-umbrella.h */,
+				E7C2B02C64C35F39B9245EBF2DC7F5FB /* Pods-ZodiacTests.debug.xcconfig */,
+				601995B6BF27CE95DFD75DF424181AFC /* Pods-ZodiacTests.release.xcconfig */,
+			);
+			name = "Pods-ZodiacTests";
+			path = "Target Support Files/Pods-ZodiacTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AA1A46718070313820DDBF7827D7DA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642144A68AC5695167373B0754FA0F46 /* Pods-ZodiacTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB95FDF4DC077AEC0BC2B359A0F524ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1DC017BF7AFD2FE86D95493AC9599D /* Pods-ZodiacUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4882F1566A10B8C271B864ADA64AB25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2752C94B5285FBA3065E57F0443A9C2 /* Pods-Zodiac-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		665C8947B804907142BFF3DE6B33ABCE /* Pods-ZodiacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783BDD983F82DD2F77F6B1A6AE55B591 /* Build configuration list for PBXNativeTarget "Pods-ZodiacUITests" */;
+			buildPhases = (
+				3DF68B5AF47EA5353687594364C5218B /* Sources */,
+				7FC46B52A916EB26AD35E1089A0FE123 /* Frameworks */,
+				EB95FDF4DC077AEC0BC2B359A0F524ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZodiacUITests";
+			productName = "Pods-ZodiacUITests";
+			productReference = 859E41EA7561A5F81917D2B0B5BC9BC3 /* Pods_ZodiacUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		950F10CAA11B948CB228FA4D3BD20666 /* Pods-Zodiac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E8CDD6CBB40351B6701E318BEEB244 /* Build configuration list for PBXNativeTarget "Pods-Zodiac" */;
+			buildPhases = (
+				49B5BEFC0BB42640F5424FC1D45F401B /* Sources */,
+				EFDC4D6E6B6B59FE62A071EC841BF241 /* Frameworks */,
+				F4882F1566A10B8C271B864ADA64AB25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Zodiac";
+			productName = "Pods-Zodiac";
+			productReference = 14BA835DF6AE44B7B1F7869A218EE411 /* Pods_Zodiac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F59216EFEA1A6F91FDCB58CBB85D6BF9 /* Pods-ZodiacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BDDC65E9219F048A9B7A89EC773367E /* Build configuration list for PBXNativeTarget "Pods-ZodiacTests" */;
+			buildPhases = (
+				91DEE56D73CE086CBEFA62090CEFDFBA /* Sources */,
+				23FD779778216B0FEAFFC41444D0974A /* Frameworks */,
+				3AA1A46718070313820DDBF7827D7DA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZodiacTests";
+			productName = "Pods-ZodiacTests";
+			productReference = 3AABDF3A2FC43C19F7C8978EEF6F4AD1 /* Pods_ZodiacTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7D1BCFED3FB1D7E475CA73FD4DFB5028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				950F10CAA11B948CB228FA4D3BD20666 /* Pods-Zodiac */,
+				F59216EFEA1A6F91FDCB58CBB85D6BF9 /* Pods-ZodiacTests */,
+				665C8947B804907142BFF3DE6B33ABCE /* Pods-ZodiacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF68B5AF47EA5353687594364C5218B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC637D2D0DF2648E41446F1C4C39998 /* Pods-ZodiacUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B5BEFC0BB42640F5424FC1D45F401B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E16F0004714A313A65E4707EBDF135 /* Pods-Zodiac-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DEE56D73CE086CBEFA62090CEFDFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAF3749C5C2219619C5600E4F5D4854 /* Pods-ZodiacTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		061236287BA65EEE8ED4C343DE4CDED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C790591F311788A2758D75E2A51D4C77 /* Pods-ZodiacUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZodiacUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZodiacUITests/Pods-ZodiacUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZodiacUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D76CDF8303FE4C9A3BCE9D32A3313B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601995B6BF27CE95DFD75DF424181AFC /* Pods-ZodiacTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZodiacTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZodiacTests/Pods-ZodiacTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZodiacTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64396A05C1B6D8F9BFEC22B801498D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5C8541518C7E4795BA38CCFF3CDE57 /* Pods-Zodiac.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Zodiac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zodiac/Pods-Zodiac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Zodiac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		967EE7F68C43A95080A9EEE125EA7D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0CEECF974A8C905C5AEDE855386CDB /* Pods-Zodiac.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Zodiac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zodiac/Pods-Zodiac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Zodiac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D63C1794AB66912D2E32694B1013A7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C2B02C64C35F39B9245EBF2DC7F5FB /* Pods-ZodiacTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZodiacTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZodiacTests/Pods-ZodiacTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZodiacTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD5B969D5BC59EEB467FC573D138A006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEB7CF57EA3841F42DDD851726BB288 /* Pods-ZodiacUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZodiacUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZodiacUITests/Pods-ZodiacUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZodiacUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E8CDD6CBB40351B6701E318BEEB244 /* Build configuration list for PBXNativeTarget "Pods-Zodiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64396A05C1B6D8F9BFEC22B801498D87 /* Debug */,
+				967EE7F68C43A95080A9EEE125EA7D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BDDC65E9219F048A9B7A89EC773367E /* Build configuration list for PBXNativeTarget "Pods-ZodiacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63C1794AB66912D2E32694B1013A7AB /* Debug */,
+				3D76CDF8303FE4C9A3BCE9D32A3313B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783BDD983F82DD2F77F6B1A6AE55B591 /* Build configuration list for PBXNativeTarget "Pods-ZodiacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061236287BA65EEE8ED4C343DE4CDED4 /* Debug */,
+				DD5B969D5BC59EEB467FC573D138A006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
